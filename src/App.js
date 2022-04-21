@@ -10,9 +10,22 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt=""></img>
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="flower" />
         </main>
-        <footer className="App-footer">Coded by Evgeniya Ryazantseva</footer>
+        <footer className="App-footer">
+          {" "}
+          <small>
+            This project was coded by Evgeniya Ryazantseva and is{" "}
+            <a
+              href="https://github.com/eoryazantseva/dictionary-project"
+              target="_blank"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and hosted on{" "}
+            <a href="https://relaxed-fenglisu-38c932.netlify.app/">Netlify</a>
+          </small>
+        </footer>
       </div>
     </div>
   );
